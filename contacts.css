@@ -1,0 +1,113 @@
+/*NAVBAR*/
+.navbar ul{
+list-style-type:none;
+background-color: rgb(255, 255, 255);
+padding: 0px;
+margin:-20px ;
+overflow: hidden;
+}
+/*Text color*/
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a :hover{
+    background-color: rgb(255, 252, 249);
+}
+.navbar li{
+    float: left;}
+ 
+
+    body, html {
+    height: 100%;
+}
+
+
+
+.contact-form {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 8px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-form label {
+  display: flex;
+  flex-direction: column;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  margin-top: 6px;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  background-color: #fff;
+  transition: border-color 0.3s ease;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #0077ff;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 12px;
+  background: #0077ff;
+  color: white;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-form button:hover {
+  background: #005fcc;
+}
+
+
+
+
+
+
+
+
+
+
+.navbar{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+font-size: 20px;
+}
+
+
+body{background-color: #e895a1}
+
+.contact-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.contact-left{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+

@@ -1,0 +1,77 @@
+/*NAVBAR*/
+.navbar ul {
+    list-style-type: none;
+    background-color: rgb(255, 255, 255);
+    padding: 0px;
+    margin: -20px;
+    overflow: hidden;
+}
+
+/*Text color*/
+.navbar a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+
+.navbar a :hover {
+    background-color: #f2d2d8;
+}
+
+.navbar li {
+    float: left;
+}
+.projectsLeft{
+    /* background-color: black; */
+    height: 100%;
+    width: 50%;
+    position: absolute !important;
+    margin-top: 5%;
+}
+
+.projectsRight {
+    margin-left: 50%;
+/* background-color: blue; */
+    height: 100%;
+    width: 50%;
+    position: absolute !important;    
+
+}
+
+.navbar{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+font-size: 20px;
+}
+
+
+body{background-color: #c34a60}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 75%;
+    margin-top: 1.5%;
+}
+
+
+
+
+
+
+
+
+.navbar {
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+
+

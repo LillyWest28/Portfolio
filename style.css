@@ -1,0 +1,89 @@
+
+
+
+/*NAVBAR*/
+.navbar ul{
+list-style-type:none;
+background-color: rgb(255, 255, 255);
+padding: 0px;
+margin:-20px ;
+overflow: hidden;
+}
+/*Text color*/
+.navbar a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+
+}
+.navbar a :hover{
+    background-color: rgb(255, 252, 249);
+}
+.navbar li{
+    float: left;}
+ 
+
+    body, html {
+    height: 100%;
+}
+
+
+
+
+
+
+
+/* The hero image */
+.hero-image {
+  background-image:url("PORTFOLIO HOMEPAGE (3).jpg");
+
+  height: 115%;
+
+ 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: center;
+  margin-top: 1.3%;
+  
+ 
+}
+
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+.hero-text {
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+font-size: 80px;
+}
+
+.navbar{
+font-family: 'Nanum Myeongjo', serif;
+font-weight: 800;
+font-size: 20px;
+}
+
+
+body{background-color: #c34a60}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    width: 75%;
+}
+
+
